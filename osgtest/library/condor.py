@@ -18,7 +18,7 @@ def config_val(attr):
 
     """
     try:
-        import htcondor
+        import htcondor2 as htcondor
         # Necessary for checking config between different flavors of HTCondor
         htcondor.reload_config()
         try:
